@@ -21,9 +21,9 @@ void greet({ personTogreet,  Greeting}){
 }
 
 
-  *******************************************************************************************
+ # *******************************************************************************************
 
-challange in the class
+# challange in the class
 
 // challeng: without changing the manin function, can you make this code 
 // work and get resoult printed in console?
@@ -45,7 +45,7 @@ int multiplaying(int a , int b){
   return a * b;
   
   
-  *******************************************************************************************
+  #*******************************************************************************************
   
   
   void main(){
@@ -66,8 +66,8 @@ int multiplaying(int a , int b){
   
 int add()=> 4+5;
   
-  *******************************************************************************************  
-  //list in dart langues
+#  *******************************************************************************************  
+  # list in dart language 
   
   
   
@@ -87,10 +87,10 @@ int add()=> 4+5;
     myList.add('Nabil');// at the end of the list it will be added nabil
     print(myList);
     
-   myList.insert(3, 'qahar');// istead of wajid it insert qahar
+   myList.insert(3, 'qahar');// instead of wajid it insert qahar
     print(myList);
   }
-    *******************************************************************************************
+   # *******************************************************************************************
    //inheritance in dart
    
    
@@ -106,6 +106,7 @@ int add()=> 4+5;
       
      
       }
+  
     class Car{
       
       int numberOfSeat=5;
@@ -121,7 +122,7 @@ int add()=> 4+5;
 }
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 //Polymorphism in dart
 
@@ -130,11 +131,7 @@ void main(){
   fromCar.Drive();
   
   elctricCar Electric = elctricCar('1 hourr');
-  Electric.Drive();
-  
-  
-  
-  
+  Electric.Drive(); 
 
 }
 
@@ -143,7 +140,6 @@ class Car{
   void Drive(){
     print('From Car class ');
     
-    
   }
 }
 
@@ -151,7 +147,7 @@ class elctricCar extends Car{
   
   String destination ='';
   
-  // in this cless we arer able to use parent Driv metot by using super and our speicial construction detinatin  and this is the polymorphyism 
+  //In this class we can use the parent Driv method by using super and our special construction destination  and this is the polymorphism. 
   elctricCar(String dis){
     destination = dis;
   }
@@ -166,19 +162,15 @@ class elctricCar extends Car{
 }
 
 
-*******************************************************************************************
-
-
+#*******************************************************************************************
 
 // constructer in dart
-
 
 void main(){
   
   Human jam = Human( 70, 77);
   print(jam.height);
-  
-  
+   
 }
 
 class Human{
@@ -187,7 +179,7 @@ class Human{
   
   Human( this.height, this.weight);
   
- // this two code is same with together 
+ //these two codes are the same together 
   
 //   Human({ height,  weight}){
 //     this.height = height;
@@ -196,14 +188,14 @@ class Human{
 }
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 
-//Maps in dartt
+//Maps in Dartt  like a dictionary in Python
 
 void main() {
  //maps in dart 
-  //Maps! Key / value paire
+  //Maps! Key/value pairs
   var toppings = {"john": "pepperoni", "mary": "cheese"};
   print(toppings);
   print(toppings["john"]);
@@ -213,13 +205,13 @@ void main() {
   print(toppings.keys);
   //show length
   print(toppings.length);
-  // add somthings 
+  // add somethings 
   toppings["erfan"] = "sasuage";
   print(toppings);
   //add many things
   toppings.addAll({"wafi": "spagaty", "ahmet": "menemant"});
   print(toppings);
-  // remove somthings
+  // remove some things
   toppings.remove("john");
   print(toppings);
   //remove everything
@@ -227,8 +219,8 @@ void main() {
   print(toppings)
 ;  
 }
+  
 //Map 2
-
 Map<String, int> NumberBook ={
   
  "Ahmad": 123345,
@@ -242,9 +234,8 @@ void main(){
   print(NumberBook["Ahmad"]);
   // output is 12345
 }
-*******************************************************************************************
+#*******************************************************************************************
 //Loops in dart 
-
 void main() {
  // For loop
   var num = 5;
@@ -259,7 +250,7 @@ void main() {
    // print(names.last);
     
   }
-  //wile loops in dart 
+  //while loops in dart 
   while(num>=1){
    print(num);
     num--;
@@ -271,7 +262,7 @@ void main() {
 
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 void main(){
   // if somthing is not changeble we use const
@@ -286,11 +277,9 @@ void main(){
 
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 //enums in dart 
-
-
 
 void main(){
   Car slelectedCar = Car(cart: CarType.corola);
@@ -314,7 +303,7 @@ enum CarType{
 }
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 // dart ternary operator 
 
@@ -326,10 +315,10 @@ void main(){
 //   }else{
 //     print('ohh no!');
 //   }
- // its same whit above code 
-  juck == true ? print('juck is good boy'): print('ohh no!');
+ //It is the same whit the above code 
+  juck == true ? print('junk is good boy'): print('ohh no!');
   
-  // we c\nt do this statment in if else conditions
+  //We can't do this statement in if else conditions
   int age = 20;
   
   bool CanBuyAlcohol = age >24 ? true: false;
@@ -337,10 +326,9 @@ void main(){
 }
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 //function 2 part 
-
 void main(){
   int result = Collection(3 ,4, mutiplying);
   print(result);
@@ -358,10 +346,9 @@ int Collection(n1,n2, Function collection){
   return collection(n1,n2);}
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 //function 2.2 part 
-
 void main(){
   Car Mycar = Car(Drive : FastDrive);
   Mycar.Drive();
@@ -380,7 +367,7 @@ void SloCar(){
   print("Car is going so slo");
 }
 
-*******************************************************************************************
+#*******************************************************************************************
 // for in loops
 
 
@@ -412,7 +399,7 @@ void checkNumbers(List<int> mynumbers){
 
 
 
-*******************************************************************************************
+#*******************************************************************************************
 
 // Using of the mixin in dart 
 
@@ -428,7 +415,7 @@ void main() {
 class animal{
   
   void move(){
-    print('the postion changed');
+    print('the position changed');
   }
 }
 

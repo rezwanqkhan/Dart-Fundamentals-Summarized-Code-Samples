@@ -1,9 +1,5 @@
 # Dart Language Overview
 
-## About
-
-This repository contains concise Dart code samples covering key language features, all summarized for easy learning. Whether you're new to Dart or an experienced developer, this repository serves as a comprehensive guide to mastering the language for mobile, web, and desktop application development.
-
 ## Table of Contents
 
 - [Functions](#functions)

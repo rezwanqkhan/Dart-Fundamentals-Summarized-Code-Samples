@@ -8,7 +8,7 @@
 
 void main(){
   
-  greet('Agela lu');
+  greet('john root');
 }*/
 
 void main(){
@@ -25,8 +25,8 @@ void greet({ personTogreet,  Greeting}){
 
 # challange in the class
 
-// challeng: without changing the manin function, can you make this code 
-// work and get resoult printed in console?
+// challenge: without changing the main function, can you make this code 
+// work and get result printed in console?
 
 void main(){
   int step1Resout = add(n1: 5, n2: 9);
@@ -264,15 +264,19 @@ void main() {
 
 #*******************************************************************************************
 
-void main(){
-  // if somthing is not changeble we use const
-  const int Mycondst = 3;
- // if somthing is changelble we use final
-  final  Myfinal = DateTime.now();
-  print(Myfinal);
-  
-  
+// Using 'const' for values that are known at compile time and cannot change during runtime.
+const int MyConst = 3;
+
+// Using 'final' for variables whose values are set once and cannot be changed after that.
+// Here, DateTime.now() is evaluated once at runtime and its value is assigned to MyFinal,
+// which cannot be changed thereafter.
+final MyFinal = DateTime.now();
+
+void main() {
+  print(MyConst); // Prints the constant value 3
+  print(MyFinal); // Prints the current date and time, evaluated at the time of initialization
 }
+
 
 
 
